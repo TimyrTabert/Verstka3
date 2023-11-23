@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+/*      header      */
+
+header .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+
+}
+
+header .container a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+header .container input{
+ background-color: #D9D9D9;
+ height: 30px;
+ background-image: url(/img/lupa.png);
+ background-size: 25px;
+ background-repeat: no-repeat;
+ background-position: 100px;
+}
+    
+
+header ::placeholder{
+    padding-left: 10px;
+    color: black;
+}
+
+/*      header end      */
+
+
+/*      boshka      */
+
+.golova0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.golova1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.golova2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.golova1 a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+}
+
+.golova2 p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+}
+
+
+.golova2 img{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 32px;
+}
+
+
+/*      boshka end      */
+
+
+/*      body      */
+
+.main .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1900px;
+    height: 800px;
+}
+
+.main .container .big{
+    padding-left: 100px;
+    padding-top: 100px;
+    font-size: 96px;
+    width: 100px;
+    color: white;
+}
+
+.main .container .texts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main .container .little{
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 500px;
+    font-size: 32px;
+    color: white;
+}
+
+.main .container .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .container .buttons a{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 100px;
+    margin-right: 400px;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    border: 10px solid rgb(201, 201, 201);
+    background-color: rgb(201, 201, 201);
+}
+
+/*      body end      */
+
+/*      tovari      */
+
+.cards2{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1700px;
+    padding: 60px;
+    width: 100%;
+}
+
+.card1 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card1 img{
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin: 10px 20px 30px 40px; */
+
+    margin: 0 0 20px 0;
+}
+
+.card1 p{
+    margin: 0 0 20px 0;
+
+}
+ .card1 a{
+    margin: 20px 20px 20px 0;
+ }
+
+
+
+
+
+
+
+.card1 {
+    width: 33%;
+    padding-right: 290px;
+}
+
+.pik1{
+    width: 386px;
+    height: 377px;
+
+}
+
+
+.cards2{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1700px;
+    padding: 60px;
+    width: 100%;
+}
+
+.card2 a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.card2 img{
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin: 10px 20px 30px 40px; */
+
+    margin: 0 0 20px 0;
+}
+
+.card2 p{
+    margin: 0 0 20px 0;
+
+}
+ .card2 a{
+    margin: 20px 20px 20px 0;
+ }
+
+
+
+ .card2 p{
+    font-size: 16px;
+ }
+
+.card2 {
+    width: 33%;
+    padding-right: 290px;
+}
+
+.pik2{
+
+    width: 386px;
+    height: 377px;
+
+}
+
+
+
+.cards2{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1700px;
+    padding: 60px;
+    width: 100%;
+}
+
+.card3 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card3 img{
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin: 10px 20px 30px 40px; */
+
+    margin: 0 0 20px 0;
+}
+
+.card3 p{
+    margin: 0 0 20px 0;
+
+}
+ .card3 a{
+    margin: 20px 20px 20px 0;
+ }
+
+
+
+ .card3 p{
+    font-size: 16px;
+ }
+
+.card3 {
+    width: 33%;
+    padding-right: 290px;
+}
+
+.pik3{
+    width: 386px;
+    height: 377px;
+}
+
+.top{
+    padding-left: 100px;
+    font-weight: 600;
+}
+
+.rab{
+    font-size: 16px;
+    padding-left: 60px;
+ }
+
+.cena{
+    font-size: 16px;
+    padding-left: 115px;
+ }
+/*      tovari end      */

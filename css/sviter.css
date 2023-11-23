@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+/*      header      */
+
+header .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+
+}
+
+header .container a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+header .container input{
+ background-color: #D9D9D9;
+ height: 30px;
+ background-image: url(/img/lupa.png);
+ background-size: 25px;
+ background-repeat: no-repeat;
+ background-position: 100px;
+}
+    
+
+header ::placeholder{
+    padding-left: 10px;
+    color: black;
+}
+
+/*      header end      */
+
+
+/*      boshka      */
+
+.golova0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.golova1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.golova1 img{
+    margin-left: 10px;
+    font-size: 32px;
+}
+
+.golova2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.golova1 a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+}
+
+.golova2 p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+}
+
+
+.golova2 img{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 32px;
+}
+
+
+/*      boshka end      */
+
+
+
+/*      towari     */
+
+.towari .container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 600px;
+    width: 800px;
+}
+
+.towari .container .infa .season{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.towari .container .infa .season2{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.towari .container .infa .nazvanie{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.towari .container .infa .costs{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.towari .container .infa .razmer{
+    font-size: 32px;
+    text-decoration: none;
+    border: 1px solid #D9D9D9;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    background-color: #D9D9D9;
+    color: black;
+}
+
+
+
+.towari .container .infa .kypit{
+    font-size: 32px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    background-color: black;
+    color: white;
+}
+
+.towari .container .infa .time{
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 500px;
+}
+
+/*      towari end      */
+
+
+/*      footer      */
+.pikchi{
+
+    display: flex;
+
+    
+}
+
+footer .niz a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+footer .nadpisi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 100px;
+}
+
+footer .container{
+    border: 1px solid black;
+    background-color: black;
+    padding-bottom: 50px;
+}
